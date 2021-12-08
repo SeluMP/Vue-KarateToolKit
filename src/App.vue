@@ -20,7 +20,7 @@
       </div>
     </v-app-bar>
 
-    <v-main class="mt-6">
+    <v-main class="mt-6" style="height: 100%;">
       <mycomponent/>
     </v-main>
   </v-app>
@@ -42,11 +42,22 @@ export default {
 };
 </script>
 
-<style scoped>
-body {
+<style>
+html {
   height: 100vh;
+  overflow: hidden;
 }
 
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+</style>
+
+<style scoped>
 .nav-link {
   text-transform: unset;
 }
