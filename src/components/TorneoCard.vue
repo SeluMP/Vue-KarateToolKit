@@ -65,5 +65,12 @@ body #app .card .info{
   height: 100%;
   width: 70%;
   border-radius: 0;
+  background-color: white;
+}
+</style>
+
+<style>
+body #app .card .info{
+  background-color: transparent;
 }
 </style>
