@@ -6,7 +6,9 @@
       color="#114B5F"
       dark
     >
-      <div>Logo</div>
+      <v-btn fab elevation="0" class="pa-1 d-flex justify-center align-center" style="height: 50px; width: 50px; background-color: white; border-radius: 50%;">
+        <v-img src="@/assets/imagenes/ktLogo.jpg" max-height="" max-width="2.5em"></v-img>
+      </v-btn>
 
       <v-spacer></v-spacer>
 
