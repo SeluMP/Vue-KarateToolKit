@@ -1,14 +1,14 @@
 <template>
   <v-card
-    class="ml-0 mr-16 d-flex align-center card"
+    class="ml-0 mr-16 pa-6 d-flex align-center card"
     elevation="6"
   >
     <div class="tickets"> 
       <v-img src="@/assets/imagenes/ticket.png" max-height="100%" max-width="100%"> 
       </v-img> 
     </div>
-    <v-img class="ml-6 img-polideportivo" src="@/assets/imagenes/polideportivo.png" 
-      max-height="70%" max-width="30%" :aspect-ratio="1"> 
+    <v-img class="img-polideportivo" src="@/assets/imagenes/polideportivo.png" 
+      max-height="100%" max-width="30%" :aspect-ratio="1"> 
     </v-img>
     <div class="info">
       <div class="fila1">
@@ -61,8 +61,9 @@ body #app .card .img-polideportivo{
   border-radius: 15px;
 }
 
-/*.info{
+body #app .card .info{
   height: 100%;
-  width: 100%;
-}*/
+  width: 70%;
+  border-radius: 0;
+}
 </style>
