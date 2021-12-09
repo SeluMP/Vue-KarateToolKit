@@ -23,19 +23,19 @@
     </v-app-bar>
 
     <v-main class="mt-6" style="height: 100%;">
-      <mycomponent/>
+      <login-card/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import mycomponent from './components/mycomponent.vue';
+import LoginCard from './components/LoginCard.vue';
 
 export default {
   name: 'App',
 
   components: {
-    mycomponent
+    LoginCard
   },
 
   data: () => ({
