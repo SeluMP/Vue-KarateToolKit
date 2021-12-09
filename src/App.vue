@@ -6,9 +6,11 @@
       color="#114B5F"
       dark
     >
-      <v-btn fab elevation="0" class="pa-1 d-flex justify-center align-center" style="height: 50px; width: 50px; background-color: white; border-radius: 50%;">
-        <v-img src="@/assets/imagenes/ktLogo.jpg" max-height="" max-width="2.5em"></v-img>
-      </v-btn>
+      <router-link to="/">
+        <v-btn fab elevation="0" class="pa-1 d-flex justify-center align-center" style="height: 50px; width: 50px; background-color: white; border-radius: 50%;">
+          <v-img src="@/assets/imagenes/ktLogo.jpg" max-height="" max-width="2.5em"></v-img>
+        </v-btn>
+      </router-link>
 
       <v-spacer></v-spacer>
 
@@ -16,26 +18,25 @@
         <v-btn class="mr-4 nav-link" color="#F45B69">
           Login Token
         </v-btn>
-        <v-btn class="mr-4 nav-link" color="#F45B69">
-          Login Junta/Ayuntamiento
-        </v-btn>
+        <router-link to="/loginUser">
+          <v-btn class="mr-4 nav-link" color="#F45B69">
+            Login Junta/Ayuntamiento
+          </v-btn>
+        </router-link>
       </div>
     </v-app-bar>
 
     <v-main class="mt-6" style="height: 100%;">
-      <login-card/>
+      <router-view></router-view>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import LoginCard from './components/LoginCard.vue';
-
 export default {
   name: 'App',
 
   components: {
-    LoginCard
   },
 
   data: () => ({
