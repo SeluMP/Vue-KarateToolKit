@@ -48,7 +48,9 @@
           cols="12"
           style="text-align: right;"
         >
+          <router-link to="/forgotPassword">
             <span style="color: white; font-size:12px;"> Has olvidado tu contraseña?</span>
+          </router-link>
         </v-col>
       </v-row>
       <v-row class="mt-10">
@@ -87,5 +89,9 @@ body #app .card .title{
     width: 100%;
     background-color: #E4FDE1;
     border-radius: 5px;
+}
+
+body #app .card a {
+  text-decoration: none;
 }
 </style>

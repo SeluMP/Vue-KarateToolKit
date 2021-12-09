@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import TorneoCard from './TorneoCard.vue'
+import TorneoCard from '@/components/TorneoCard.vue'
 
 export default {
     components: {

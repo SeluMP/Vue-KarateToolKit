@@ -15,9 +15,11 @@
       <v-spacer></v-spacer>
 
       <div>
-        <v-btn class="mr-4 nav-link" color="#F45B69">
-          Login Token
-        </v-btn>
+        <router-link to="/loginToken">
+          <v-btn class="mr-4 nav-link" color="#F45B69">
+            Login Token
+          </v-btn>
+        </router-link>
         <router-link to="/loginUser">
           <v-btn class="mr-4 nav-link" color="#F45B69">
             Login Junta/Ayuntamiento

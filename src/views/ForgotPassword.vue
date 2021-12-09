@@ -24,9 +24,11 @@
           cols="12"
           class="d-flex justify-center"
         >
-        <v-btn style="color: white; width: 100%;" color="#F45B69">
-          Enviar
-        </v-btn>
+        <router-link style="width: 100%;" to="/loginUser">
+          <v-btn style="color: white; width: 100%;" color="#F45B69">
+            Enviar
+          </v-btn>
+        </router-link>
         </v-col>
       </v-row>
       </v-card>
