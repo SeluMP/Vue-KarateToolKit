@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="ml-0 mr-16 pa-6 d-flex align-center card"
+    class="pa-6 d-flex align-center card"
     elevation="6"
   >
     <v-btn elevation="2" fab dark color="#F45B69" class="tickets" @click="printHolaMundo"> 
@@ -55,6 +55,8 @@ body #app .card {
   background-color: #f8f8f8;
   border-radius: 20px;
   position: relative;
+  margin-right: 64px;
+  margin-left: 0;
 }
 
 body #app .card .tickets {

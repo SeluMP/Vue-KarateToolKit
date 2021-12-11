@@ -28,7 +28,7 @@
       </div>
     </v-app-bar>
 
-    <v-main class="mt-6" style="height: 100%;">
+    <v-main class="mt-6" style="height: calc(100% - 24px);">
       <router-view></router-view>
     </v-main>
   </v-app>
@@ -50,7 +50,6 @@ export default {
 <style>
 html {
   height: 100vh;
-  overflow: hidden;
 }
 
 body {
