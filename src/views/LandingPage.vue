@@ -67,6 +67,7 @@ body #app .container .left-side {
     border-radius: 10px;
     padding: 1.5em 1.5em;
     text-align: center;
+    max-width: 500px;
 }
 
 .contact-card {
